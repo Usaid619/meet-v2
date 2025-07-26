@@ -1,7 +1,7 @@
 import localFont from 'next/font/local'
  
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import HeaderNav from "@/components/Main/HeaderNav";
+import Footer from '@/components/Main/Footer';
 import "./globals.css";
 
 const erodeLight = localFont({
@@ -34,9 +34,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${erodeLight.variable} ${erodeRegular.variable} ${erodeBold.variable} antialiased font-erodeRegular bg-stone-800`}
+        className={`${erodeLight.variable} ${erodeRegular.variable} ${erodeBold.variable} antialiased font-erodeRegular bg-black/90`}
       >
-        <Header/>
+        <HeaderNav/>
         {children}
         <Footer/>
       </body>
