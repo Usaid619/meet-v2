@@ -1,14 +1,12 @@
 import { projects } from "@/utils/constants"
-
-console.log(projects)
+import Image from "next/image"
 
 const Projects = () => {
   return (
     <div>
-      {projects.map((project,index)=>{
-        return <section key={index} style={{
-          backgroundImage:`url('${project.imageSrc}')`
-        }} className={`relative flex justify-center items-center h-screen bg-no-repeat bg-center bg-cover`}>
+      {projects.map((project,index)=>(
+        <section key={index} className={`relative flex justify-center items-center h-screen bg-no-repeat bg-center bg-cover`}>
+          <Image className="absolute h-full w-full object-cover" width={4000} height={2700} src={project.imageSrc}/>
       <div className="items-center flex gap-4 absolute z-50 bottom-0 left-2/12 origin-bottom-right rotate-90">
         <span className="tracking-wider">Scroll</span>
         <div className="h-[1px] w-20 bg-white"/>
@@ -18,8 +16,7 @@ const Projects = () => {
           {/* <p className="font-erodeLight text-lg mb-4 text-gray-300">Designer and Developer</p> */}
         <h1 className="absolute top-[28%] left-[30%] text-6xl lg:-translate-x-24 lg:-translate-y-6 leading-[2]">{project.title}</h1>
         </div>
-    </section>
-      }
+    </section>)
       )}
     </div>
    
