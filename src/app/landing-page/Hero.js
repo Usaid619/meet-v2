@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="relative flex justify-center items-center h-screen ">
+    <section className="snap-start relative flex justify-center items-center h-screen text-white">
       <div className="items-center flex gap-4 absolute z-50 bottom-0 left-2/12 origin-bottom-right rotate-90">
         <span className="tracking-wider">Scroll</span>
         <div className="h-[1px] w-20 bg-white"/>

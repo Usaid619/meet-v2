@@ -3,9 +3,9 @@ import Image from "next/image"
 
 const Projects = () => {
   return (
-    <div>
+    <div className="snap-start">
       {projects.map((project,index)=>(
-        <section key={index} className={`relative flex justify-center items-center h-screen bg-no-repeat bg-center bg-cover`}>
+        <section key={index} className={`snap-start relative flex justify-center items-center h-screen bg-no-repeat bg-center bg-cover`}>
           <Image className="absolute h-full w-full object-cover" width={4000} height={2700} src={project.imageSrc}/>
       <div className="items-center flex gap-4 absolute z-50 bottom-0 left-2/12 origin-bottom-right rotate-90">
         <span className="tracking-wider">Scroll</span>

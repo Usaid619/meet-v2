@@ -22,6 +22,12 @@
   }
 }
 
+html{
+  scroll-snap-stop: always;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
 body{
   color: #dddddd;
 }
