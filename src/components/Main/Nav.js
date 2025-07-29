@@ -18,7 +18,7 @@ const Nav = () => {
 
     {/* Page Count */}
     <div className="fixed z-50 bottom-[6%] right-[4%]">
-      <span>I / V</span>
+      <p className="flex gap-3 items-end"><span className="text-4xl">I</span> <span>/</span> V</p>
     </div>
 
     {/* Dots */}
