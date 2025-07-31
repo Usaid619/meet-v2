@@ -1,15 +1,46 @@
 const About = () => {
   return (
     <section className="snap-end relative flex justify-center items-center h-screen ">
-      {/* <div className="items-center flex gap-4 absolute z-50 bottom-0 left-2/12 origin-bottom-right rotate-90">
-        <span className="tracking-wider">Scroll</span>
-        <div className="h-[1px] w-20 bg-white"/>
-      </div> */}
+
       <div className="bg-gradient-to-r from-red-500 to-orange-500 rounded-b-full h-[60%] w-full top-0 left-0 right-0 absolute -z-10 opacity-70"/>
-      <div className="flex flex-col items-center justify-center bg-black/10 backdrop-blur-3xl h-screen w-full px-40 pt-20 pb-10">
-       <div className="w-full h-[70%] border"></div>
-       <div className="w-[100%] h-[30%] border"></div>
-        </div>
+
+      <div className="flex flex-col gap-20 items-center justify-between pt-28 pb-10 bg-black/10 backdrop-blur-3xl h-screen w-full">
+      <div className="flex flex-col  w-[67%]">
+        <h1 className="text-9xl ">About</h1>
+        <p className="max-w-prose self-end">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+      </div>
+      <div className=" text-gray-300 text-base  flex items-start justify-between w-[67%] ">
+        
+       
+          <h1 className="text-4xl ">Services</h1>
+          {/* Development */}
+       <div>
+        <h1>
+          Development
+        </h1>
+        <ul>
+          <li>Next</li>
+          <li>React</li>
+          <li>Tailwind</li>
+          <li>GSAP</li>
+        </ul>
+       </div>
+       {/* Design */}
+        <div>
+        <h1>
+          Design
+        </h1>
+        <ul>
+          <li>Next</li>
+          <li>Next</li>
+          <li>Next</li>
+          <li>Next</li>
+        </ul>
+       </div>
+        
+       
+      </div>
+     </div>
     </section>
   )
 }
