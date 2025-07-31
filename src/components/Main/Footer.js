@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
-    <footer className="snap-start h-screen flex justify-center items-center flex-col gap-20 ">
+    <footer className="snap-start h-screen flex justify-between items-center flex-col gap-2 pt-36 pb-10">
       {/* top */}
-      <div className="flex border justify-between max-w-[67%]">
+      <div className="flex border justify-between w-[67%]">
 <h1>The happiest person is the one who prays fajr.</h1>
 
 <div className="h-20 w-20 rounded-full">
@@ -11,7 +11,7 @@ const Footer = () => {
       </div>
 
 {/* middle */}
-      <div className="flex justify-between gap-10 border max-w-[67%]">
+      <div className="flex justify-between gap-10 border w-[67%]">
         <div>
           <h1>Phone Number</h1>
         </div>
@@ -29,7 +29,7 @@ const Footer = () => {
       </div>
 
 {/* bottom */}
-      <div className="flex justify-between max-w-[67%]">
+      <div className="flex justify-between w-[67%]">
         <h1>Copy rights</h1>
       </div>
     </footer>
