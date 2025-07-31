@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section className="snap-end relative flex justify-center items-center h-screen ">
+    <section className="snap-end relative flex justify-center items-center h-screen text-white">
 
       <div className="bg-gradient-to-r from-red-500 to-orange-500 rounded-b-full h-[60%] w-full top-0 left-0 right-0 absolute -z-10 opacity-70"/>
 
@@ -9,7 +9,7 @@ const About = () => {
         <h1 className="text-9xl ">About</h1>
         <p className="max-w-prose self-end">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
       </div>
-      <div className=" text-gray-300 text-base  flex items-start justify-between w-[67%] ">
+      <div className="text-base  flex items-start justify-between w-[67%] ">
         
        
           <h1 className="text-4xl ">Services</h1>

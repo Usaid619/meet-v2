@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${erodeLight.variable} ${erodeRegular.variable} ${erodeBold.variable} antialiased font-erodeRegular bg-black/90`}
+        className={`${erodeLight.variable} ${erodeRegular.variable} ${erodeBold.variable} antialiased font-erodeRegular bg-[#1B1B1B]`}
       >
         <HeaderNav/>
         {children}

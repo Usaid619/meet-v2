@@ -1,6 +1,38 @@
 const Footer = () => {
   return (
-    <footer className="h-40 bg-yellow-300"></footer>
+    <footer className="snap-start h-screen flex justify-center items-center flex-col gap-20 ">
+      {/* top */}
+      <div className="flex border justify-between max-w-[67%]">
+<h1>The happiest person is the one who prays fajr.</h1>
+
+<div className="h-20 w-20 rounded-full">
+  <p>Start a project</p>
+</div>
+      </div>
+
+{/* middle */}
+      <div className="flex justify-between gap-10 border max-w-[67%]">
+        <div>
+          <h1>Phone Number</h1>
+        </div>
+        <div>
+          <h1>Email</h1>
+        </div>
+        <div>
+          <h1>Social Media</h1>
+          <ul>
+            <li>In</li>
+            <li>Li</li>
+            <li>Fb</li>
+          </ul>
+        </div>
+      </div>
+
+{/* bottom */}
+      <div className="flex justify-between max-w-[67%]">
+        <h1>Copy rights</h1>
+      </div>
+    </footer>
   )
 }
 
