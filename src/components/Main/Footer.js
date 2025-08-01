@@ -1,17 +1,17 @@
 const Footer = () => {
   return (
-    <footer className="snap-start h-screen flex justify-between items-center flex-col gap-2 pt-36 pb-10">
+    <footer className="snap-start h-screen flex justify-between items-center flex-col gap-2 pt-40 pb-10">
       {/* top */}
       <div className="flex border justify-between w-[67%]">
-<h1>The happiest person is the one who prays fajr.</h1>
+<h1 className="max-w-[50ch]">The happiest person is the one who prays fajr. The happiest person is the one who prays fajr. The happiest person is the one who prays fajr. The happiest person is the one who prays fajr.</h1>
 
-<div className="h-20 w-20 rounded-full">
-  <p>Start a project</p>
+<div className="flex justify-center items-center h-52 w-52 bg-amber-300 rounded-full">
+  <p className="">Start a project</p>
 </div>
       </div>
 
 {/* middle */}
-      <div className="flex justify-between gap-10 border w-[67%]">
+      <div className="flex justify-start gap-10 border w-[67%]">
         <div>
           <h1>Phone Number</h1>
         </div>

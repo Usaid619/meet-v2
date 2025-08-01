@@ -6,8 +6,8 @@ export default function page() {
   return (
     <div className="snap-y snap-mandatory">
       <Hero/>
-      <Projects/>
-      <About/>
+      {/* <Projects/>
+      <About/> */}
     </div>
   )
 }
